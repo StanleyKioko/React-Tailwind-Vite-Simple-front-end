@@ -6,13 +6,12 @@ import Analytics from './components/Analytics';
 import Newsletter from './components/Newsletter';
 import Cards from './components/Cards';
 import Footer from './components/Footer';
-import About from './pages/AboutPage';
-import Company from './pages/CompanyPage';
-import Resources from './pages/ResourcesPage';
-import Contact from './pages/ContactPage';
+import About from './pages/About';
+import Offerings from './pages/Offerings';
+import Resources from './pages/Resources';
+import Contact from './pages/Contact';
 
-// Create a HomePage component to hold the main page content
-const HomePage = () => {
+const Home = () => {
   return (
     <>
       <Hero />
@@ -29,11 +28,11 @@ function App() {
       <>
         <Navbar />
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/CompanyPage" element={<Company />} />
-          <Route path="/ResourcesPage" element={<Resources />} />
-          <Route path="/AboutPage" element={<About />} />
-          <Route path="/ContactPage" element={<Contact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/Offerings" element={<Offerings />} />
+          <Route path="/Resources" element={<Resources />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
         <Footer />
       </>
