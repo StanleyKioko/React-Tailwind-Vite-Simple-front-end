@@ -17,7 +17,7 @@ const Cards = () => {
             </div>
           </div>
 
-          <div className="w-full shadow-xl flex flex-col p-4 my-8 rounded-lg hover:bg-gray-100 md:0 scale-105 duration-300">
+          <div className="w-full shadow-xl flex flex-col p-4 my-8 rounded-lg bg-gray-100 md:0 hover:scale-105 duration-300">
             <img className="w-20 mx-auto  mt-[3-rem] bg-transparent" src={users} alt="/" />
             <h2 className="text-2xl font-bold text-center py-8">User Interactions</h2>
             <p className="text-center text-2xl mx-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
