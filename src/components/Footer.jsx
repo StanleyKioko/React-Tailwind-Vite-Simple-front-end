@@ -12,7 +12,7 @@ import{
 const Footer = () => {
   return (
     <div className="">
-      <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg-grid-cols-3 gap-8 text-white bg-gray-black">
+      <div className="max-w-[1240px] mx-auto py-8 px-4 grid lg-grid-cols-3 gap-8 text-white bg-gray-black">
         <h1 className="w-full text-3xl font-bold text-[#00df9a]">© 2025 Stanley.</h1>
         <p className="py-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere illo quidem ipsam distinctio, laborum adipisci ut quasi possimus ab in itaque quo voluptates aspernatur omnis sint officia minima saepe accusantium?</p>
         <div className="flex justify-between md:w-[75%] mt-6">
