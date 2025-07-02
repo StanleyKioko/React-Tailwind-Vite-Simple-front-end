@@ -14,11 +14,11 @@ const Offerings = () => {
         </div>
         
         {/* Featured Offering */}
-        <div className="bg-white p-8 rounded-lg shadow-xl mb-16">
-          <div className="flex flex-col md:flex-row items-center">
+        <div className="w-full py-[10rem] px-4 text-black bg-white">
+          <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
             <div className="md:w-1/2 mb-6 md:mb-0 md:pr-8 flex flex-row items-center gap-6">
-            <div className="flex-1">
-              <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-gray-800">Premium Data Analytics Suite</h2>
+            <div className="w-full bg-white border border-gray-100 shadow-lg flex flex-col p-4 sm:p-6 rounded-cl hover:scale-105 transition-transform duration-300">
+              <h2 className="text-2xl sm:text-3xl font-bold text-center py-4 sm:py-6">Premium Data Analytics Suite</h2>
               <p className="text-gray-700 mb-4 text-base sm:text-lg">
                 Our flagship offering provides enterprise-grade analytics tools with AI-powered insights,
                 real-time dashboards, and predictive modeling capabilities.
@@ -29,21 +29,15 @@ const Offerings = () => {
                 <li>Custom reporting solutions</li>
                 <li>24/7 expert support</li>
               </ul>
-    <button className="bg-gradient-to-r from-[#00df9a] to-[#00b383] text-white font-semibold py-2 px-6 rounded-md hover:from-[#00b383] hover:to-[#009c6d] hover:shadow-md focus:ring-2 focus:ring-[#00df9a] focus:outline-none transition-all duration-300">
+              <div className="md:w-1/2 bg-gray-200 h-64 rounded-lg flex items-center justify-center">
+              <img className="w-full lg:w-full sm:w-24 mx-auto my-4 rounded border border-gray-200 shadow-sm hover:scale-110 transition-transform duration-300" src={dashboard} alt="dashboard" />
+            </div>
+            <button className="bg-gradient-to-r from-[#00df9a] to-[#00b383] text-white font-semibold py-2 px-6 rounded-md hover:from-[#00b383] hover:to-[#009c6d] hover:shadow-md focus:ring-2 focus:ring-[#00df9a] focus:outline-none transition-all duration-300">
       Learn More
     </button>
   </div>
-  <img 
-    className="w-16 sm:w-24 rounded-full border border-gray-200 shadow-sm hover:scale-110 transition-transform duration-300" 
-    src={interactions} 
-    alt="Premium Analytics Icon" 
-  />
-</div>
-            </div>
-            <div className="md:w-1/2 bg-gray-200 h-64 rounded-lg flex items-center justify-center">
-              <img className="w-full h-full object-cover" src={dashboard} alt="dashboard" />
-            </div>
-          </div>
+        </div>
+      </div>
         </div>
         
         {/* Service Categories */}
@@ -249,6 +243,7 @@ const Offerings = () => {
           </button>
         </div>
       </div>
+    </div>
   );
 }
 
