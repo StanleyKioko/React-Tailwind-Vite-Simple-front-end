@@ -14,15 +14,15 @@ const AboutPage = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <h2 className="text-3xl font-bold mb-4">Our Story</h2>
-            <p className="text-gray-700 mb-4">
+            <p className="text-white mb-4">
               Founded in 2020, Stanley Analytics began with a simple mission: make data analytics accessible to businesses of all sizes. 
               What started as a small team of three has grown into a company serving clients worldwide.
             </p>
-            <p className="text-gray-700 mb-4">
+            <p className="text-white mb-4">
               Our journey has been driven by a passion for data and a commitment to excellence. We've helped hundreds of businesses transform 
               their operations through data-driven insights and innovative solutions.
             </p>
-            <p className="text-gray-700">
+            <p className="text-white">
               Today, we continue to push the boundaries of what's possible with data analytics, always staying at the forefront of technological advancements.
             </p>
           </div>

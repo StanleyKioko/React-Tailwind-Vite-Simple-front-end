@@ -26,7 +26,7 @@ const Offerings = () => {
                 <li>Custom reporting solutions</li>
                 <li>24/7 expert support</li>
               </ul>
-              <button className="bg-[#00df9a] text-black font-bold py-2 px-6 rounded-md hover:bg-opacity-80 transition-all">
+              <button className="bg-[#00df9a] text-black font-bold py-2 px-6 rounded-md hover:bg-opacity-80 transition-all mx-auto self-center">
                 Learn More
               </button>
             </div>
