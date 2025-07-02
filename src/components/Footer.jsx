@@ -11,7 +11,7 @@ import{
 
 const Footer = () => {
   return (
-    <div className="lg:grid-cols-2 max-w-[1240px] mx-auto py-2 px-4 grid gap-4 text-white bg-gray-black">
+    <div className="lg:grid-cols-2 max-w-[1240px] mx-auto py-2 px-4 grid gap-8 text-white bg-gray-black">
       <div className="max-w-[1240px] mx-auto py-8 px-4 grid lg:grid-cols-2 gap-8 text-white bg-gray-black">
         <h1 className="w-full text-3xl font-bold text-[#00df9a]">© 2025 Stanley.</h1>
         {/*<div className="flex justify-between md:w-[75%] mt-4">
