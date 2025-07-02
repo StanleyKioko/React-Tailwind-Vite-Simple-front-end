@@ -63,8 +63,8 @@ const Offerings = () => {
               <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path>
             </svg>
           </div>
-          <h3 className="text-2xl font-bold mb-3">Data Analytics</h3>
-          <p className="text-gray-700 mb-4 text-center">
+          <h3 className="text-2xl font-bold mb-3 text-center">Data Analytics</h3>
+          <p className="text-gray-700 mb-4">
             Turn your raw data into actionable insights with our comprehensive analytics solutions.
           </p>
           <ul className="text-gray-700 mb-6 flex flex-col items-start">
