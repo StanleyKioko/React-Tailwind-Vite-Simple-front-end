@@ -1,4 +1,6 @@
 import React from 'react';
+import dashboard from '../assets/dashboard.jpg';
+import interactions from '../assets/interactions.jpg';
 
 const Offerings = () => {
   return (
@@ -14,24 +16,32 @@ const Offerings = () => {
         {/* Featured Offering */}
         <div className="bg-white p-8 rounded-lg shadow-xl mb-16">
           <div className="flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2 mb-6 md:mb-0 md:pr-8">
-              <h2 className="text-3xl font-bold mb-4 text-gray-800">Premium Data Analytics Suite</h2>
-              <p className="text-gray-700 mb-4">
-                Our flagship offering provides enterprise-grade analytics tools with AI-powered insights, 
+            <div className="md:w-1/2 mb-6 md:mb-0 md:pr-8 flex flex-row items-center gap-6">
+            <div className="flex-1">
+              <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-gray-800">Premium Data Analytics Suite</h2>
+              <p className="text-gray-700 mb-4 text-base sm:text-lg">
+                Our flagship offering provides enterprise-grade analytics tools with AI-powered insights,
                 real-time dashboards, and predictive modeling capabilities.
-              </p>
-              <ul className="list-disc pl-5 mb-6 text-gray-700">
+                </p>
+              <ul className="list-disc pl-5 mb-6 text-gray-700 text-base sm:text-lg">
                 <li>Advanced data visualization</li>
                 <li>Machine learning algorithms</li>
                 <li>Custom reporting solutions</li>
                 <li>24/7 expert support</li>
               </ul>
-              <button className="bg-[#00df9a] text-black font-bold py-2 px-6 rounded-md hover:bg-opacity-80 transition-all">
-                Learn More
-              </button>
+    <button className="bg-gradient-to-r from-[#00df9a] to-[#00b383] text-white font-semibold py-2 px-6 rounded-md hover:from-[#00b383] hover:to-[#009c6d] hover:shadow-md focus:ring-2 focus:ring-[#00df9a] focus:outline-none transition-all duration-300">
+      Learn More
+    </button>
+  </div>
+  <img 
+    className="w-16 sm:w-24 rounded-full border border-gray-200 shadow-sm hover:scale-110 transition-transform duration-300" 
+    src={interactions} 
+    alt="Premium Analytics Icon" 
+  />
+</div>
             </div>
             <div className="md:w-1/2 bg-gray-200 h-64 rounded-lg flex items-center justify-center">
-              <p className="text-gray-500 font-medium">[Analytics Dashboard Image]</p>
+              <img className="w-full h-full object-cover" src={dashboard} alt="dashboard" />
             </div>
           </div>
         </div>
@@ -239,8 +249,7 @@ const Offerings = () => {
           </button>
         </div>
       </div>
-    </div>
   );
-};
+}
 
 export default Offerings;
