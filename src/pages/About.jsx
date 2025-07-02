@@ -12,7 +12,7 @@ const AboutPage = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-16 bg-[#00df9a] mx-auto max-w-[1240px] text-center">
+        <div className="grid md:grid-cols-2 gap-12 items-center mb-16 bg-white mx-auto max-w-[1240px] text-center">
           <div>
             <h2 className="text-3xl font-bold mb-4 py-4">Our Story</h2>
             <p className="text-black mb-4">
