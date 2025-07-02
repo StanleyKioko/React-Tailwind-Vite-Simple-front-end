@@ -15,7 +15,7 @@ const ResourcesPage = () => {
           {/* Resource Cards */}
           {['Guides', 'Tutorials', 'Case Studies', 'Webinars', 'White Papers', 'API Documentation'].map((resource, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-xl hover:shadow-2xl transition-all">
-              <div className="bg-[#00df9a] text-white p-4 inline-block rounded-lg mb-4">
+              <div className="bg-[#00df9a] text-white p-4 inline-block rounded-lg mb-4 size-[60px] mt-[-2rem] mx-auto flex items-center justify-center">
                 <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                   <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" clipRule="evenodd"></path>
                 </svg>
@@ -33,11 +33,11 @@ const ResourcesPage = () => {
             </div>
           ))}
         </div>
-        
+
         <div className="mt-16 bg-gray-100 p-8 rounded-lg">
-          <h2 className="text-2xl font-bold mb-4">Need personalized help?</h2>
-          <p className="mb-6">Our team is ready to assist you with custom solutions tailored to your specific needs.</p>
-          <button className="bg-[#00df9a] text-black py-3 px-8 rounded-md font-medium hover:bg-[#00c589]">
+          <h2 className="text-2xl font-bold mb-4 flex justify-center">Need personalized help?</h2>
+          <p className="mb-6 flex justify-center">Our team is ready to assist you with custom solutions tailored to your specific needs.</p>
+          <button className="bg-[#00df9a] text-black py-3 px-8 rounded-md font-medium hover:bg-[#00c589] mx-auto flex items-center justify-center">
             Contact Support
           </button>
         </div>
