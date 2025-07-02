@@ -18,7 +18,7 @@ const Offerings = () => {
         <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-0">
           <div className="w-full flex flex-col lg:flex-row items-center justify-between">
             <div className="w-full bg-white border border-gray-100 shadow-lg flex flex-col p-6 lg:p-10 rounded-lg hover:shadow-xl transition-all duration-300">
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center lg:text-left py-4">Premium Data Analytics Suite</h2>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center lg:text-left py-4 text-center">Premium Data Analytics Suite</h2>
               
               <div className="flex flex-col lg:flex-row items-start gap-8">
                 <div className="w-full lg:w-1/2">
@@ -57,8 +57,8 @@ const Offerings = () => {
       <div className="grid md:grid-cols-3 gap-8 mb-16">
         {/* Service 1 */}
         <div className="bg-white p-6 rounded-lg shadow-xl hover:shadow-2xl transition-all">
-          <div className="bg-[#00df9a] text-white p-4 inline-block rounded-full mb-4">
-            <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <div className="bg-[#00df9a] text-white p-4 mt-[-2rem] size-[60px] rounded-md mb-4 mx-auto flex items-center justify-center">
+            <svg className="w-8 h-8 " fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z"></path>
               <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path>
             </svg>
@@ -82,7 +82,7 @@ const Offerings = () => {
         
         {/* Service 2 */}
         <div className="bg-white p-6 rounded-lg shadow-xl hover:shadow-2xl transition-all">
-          <div className="bg-[#00df9a] text-white p-4 inline-block rounded-full mb-4">
+          <div className="bg-[#00df9a] text-white p-4 rounded-full mb-4 size-[60px] mt-[-2rem] mx-auto flex items-center justify-center">
             <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fillRule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
             </svg>
@@ -106,7 +106,7 @@ const Offerings = () => {
         
         {/* Service 3 */}
         <div className="bg-white p-6 rounded-lg shadow-xl hover:shadow-2xl transition-all">
-          <div className="bg-[#00df9a] text-white p-4 inline-block rounded-full mb-4">
+          <div className="bg-[#00df9a] text-white p-4 inline-block rounded-full size-[60px] mt-[-2rem] mb-4 mx-auto flex items-center justify-center">
             <svg className="w-8 h-8 justify-center" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"></path>
             </svg>
