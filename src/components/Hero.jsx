@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="text-white">
       <div className="max-w-[800px] w-full h-screen mx-auto text-center flex flex-col justify-center items-center">
         <p className="text-[#00df9a]">We are glad to have you here.</p>
-        <h1 className="md:text-7xl text-4xl font-bold md:py-6">Welcome to Our Website</h1>
+        <h1 className="md:text-7xl text-4xl font-bold md:py-6">Welcome to Stanley Analytics</h1>
         <div className="flex items-center justify-center">
             <p className="md:text-4xl text-xl font-bold py-4">Your success is our priority: </p>
             <ReactTyped 

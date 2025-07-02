@@ -8,8 +8,8 @@ const Cards = () => {
     <div className="w-full py-[10rem] px-4 text-black bg-white">
         <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
           <div className="w-full bg-white border border-gray-100 shadow-lg flex flex-col p-4 sm:p-6 rounded-cl hover:scale-105 transition-transform duration-300">
+            <img className="w-full lg:w-full mx-auto  mt-[3-rem] bg-transparent" src={interactions} alt="/" />
             <h1 className="text-2xl sm:text-3xl font-bold text-center py-4 sm:py-6">User Interactions</h1>
-            <img className="w-full lg:w-full sm:w-24 mx-auto my-4 rounded border border-gray-200 shadow-sm hover:scale-110 transition-transform duration-300" src={interactions} alt="/" />
             
             <p className="text-base sm:text-lg text-center mx-4 leading-relaxed">Track and analyze how users interact with your digital platforms to identify patterns and opportunities for improvement.</p>
             <p className="text-base sm:text-lg text-center mx-4 leading-relaxed mb-6">Our advanced analytics tools capture detailed user behavior metrics to help you optimize conversion paths and enhance user experience.</p>
@@ -19,8 +19,9 @@ const Cards = () => {
           </div>
 
           <div className="w-full bg-white border border-gray-100 shadow-lg flex flex-col p-4 sm:p-6 rounded-cl hover:scale-105 transition-transform duration-300">
-            <h1 className="text-2xl sm:text-3xl font-bold text-center py-4 sm:py-6">Data Visualization</h1>
             <img className="w-full lg:w-full mx-auto  mt-[3-rem] bg-transparent" src={users} alt="/" />
+            <h1 className="text-2xl sm:text-3xl font-bold text-center py-4 sm:py-6">Data Visualization</h1>
+            
 
             <p className="text-base sm:text-lg text-center mx-4 leading-relaxed">Transform your data into compelling visual stories that drive insights and decision-making.</p>
             <p className="text-base sm:text-lg text-center mx-4 leading-relaxed mb-6">Our visualization tools enable you to create interactive dashboards and reports that make complex data easy to understand.</p>
@@ -30,8 +31,9 @@ const Cards = () => {
           </div>
 
           <div className="w-full bg-white border border-gray-100 shadow-lg flex flex-col p-4 sm:p-6 rounded-cl hover:scale-105 transition-transform duration-300">
+            <img className="w-full lg:w-full mx-auto  mt-[3-rem] bg-transparent" src={engagement} alt="/" />
             <h1 className="text-2xl sm:text-3xl font-bold text-center py-4 sm:py-6">User Engagement</h1>
-            <img className="w-full lg:w-full mx-auto  mt-[3-rem] bg-white" src={engagement} alt="/" />
+            
 
             <p className="text-base sm:text-lg text-center mx-4 leading-relaxed">Measure and improve how users engage with your content and services through data-driven strategies.</p>
             <p className="text-base sm:text-lg text-center mx-4 leading-relaxed mb-6">Our engagement analytics help you understand which features resonate with your audience, allowing you to build stronger customer relationships.</p>
