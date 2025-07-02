@@ -11,7 +11,7 @@ const Navbar = () => {
         <h1 className="w-full text-3xl font-bold text-[#00df9a]">Stanley .</h1>
         <ul className="hidden md:flex">
             <li className="p-4"><Link to="/">Home</Link></li>
-            <li className="p-4"><Link to="/Offerings">Our Offerings</Link></li>
+            <li className="p-4"><Link to="/Offerings">Offerings</Link></li>
             <li className="p-4"><Link to="/Resources">Resources</Link></li>
             <li className="p-4"><Link to="/About">About</Link></li>
             <li className="p-4"><Link to="/Contact">Contact</Link></li>
@@ -23,7 +23,7 @@ const Navbar = () => {
           <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">Stanley .</h1>
           <ul className="uppercase p-4">
             <li className="p-4 border-b border-gray-600"> <Link to="/">Home</Link></li>
-            <li className="p-4 border-b border-gray-600"> <Link to="/Offerings">Our Offerings</Link></li>
+            <li className="p-4 border-b border-gray-600"> <Link to="/Offerings">Offerings</Link></li>
             <li className="p-4 border-b border-gray-600"> <Link to="/Resources">Resources</Link></li>
             <li className="p-4 border-b border-gray-600"> <Link to="/About">About</Link></li>
             <li className="p-4 border-b border-gray-600"> <Link to="/Contact">Contact</Link></li>
