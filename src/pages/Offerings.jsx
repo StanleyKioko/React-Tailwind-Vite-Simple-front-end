@@ -63,16 +63,16 @@ const Offerings = () => {
               <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path>
             </svg>
           </div>
-          <h3 className="text-2xl font-bold mb-3">Data Analytics</h3>
-          <p className="text-gray-700 mb-4">
+          <h3 className="text-2xl font-bold mb-3 text-center">Data Analytics</h3>
+          <p className="text-gray-700 mb-4 text-center">
             Turn your raw data into actionable insights with our comprehensive analytics solutions.
           </p>
-          <ul className="text-gray-700 mb-6">
+          <ul className="text-gray-700 mb-6 flex flex-col items-start">
             <li className="mb-2">• Custom dashboard creation</li>
             <li className="mb-2">• Performance metrics tracking</li>
             <li className="mb-2">• Trend analysis</li>
           </ul>
-          <a href="#" className="text-[#00df9a] font-bold flex items-center">
+          <a href="#" className="text-[#00df9a] font-bold flex items-center justify-center">
             Explore Analytics 
             <svg className="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
@@ -87,7 +87,7 @@ const Offerings = () => {
               <path fillRule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
             </svg>
           </div>
-          <h3 className="text-2xl font-bold mb-3">Business Intelligence</h3>
+          <h3 className="text-2xl font-bold mb-3 flex justify-center">Business Intelligence</h3>
           <p className="text-gray-700 mb-4">
             Make informed decisions with our powerful business intelligence tools and dashboards.
           </p>
@@ -96,7 +96,7 @@ const Offerings = () => {
             <li className="mb-2">• Competitor analysis</li>
             <li className="mb-2">• Market forecasting</li>
           </ul>
-          <a href="#" className="text-[#00df9a] font-bold flex items-center">
+          <a href="#" className="text-[#00df9a] font-bold flex items-center justify-center">
             Explore BI Solutions
             <svg className="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
@@ -107,11 +107,11 @@ const Offerings = () => {
         {/* Service 3 */}
         <div className="bg-white p-6 rounded-lg shadow-xl hover:shadow-2xl transition-all">
           <div className="bg-[#00df9a] text-white p-4 inline-block rounded-full mb-4">
-            <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <svg className="w-8 h-8 justify-center" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"></path>
             </svg>
           </div>
-          <h3 className="text-2xl font-bold mb-3">Consulting Services</h3>
+          <h3 className="text-2xl font-bold mb-3 flex justify-center">Consulting Services</h3>
           <p className="text-gray-700 mb-4">
             Get expert guidance from our team of experienced data scientists and analysts.
           </p>
@@ -120,7 +120,7 @@ const Offerings = () => {
             <li className="mb-2">• Implementation support</li>
             <li className="mb-2">• Training and workshops</li>
           </ul>
-          <a href="#" className="text-[#00df9a] font-bold flex items-center">
+          <a href="#" className="text-[#00df9a] font-bold flex justify-center">
             Explore Consulting
             <svg className="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
@@ -134,10 +134,10 @@ const Offerings = () => {
         <h2 className="text-3xl font-bold text-center mb-12">Pricing Plans</h2>
         <div className="grid md:grid-cols-3 gap-8">
           {/* Basic Plan */}
-          <div className="bg-white p-8 rounded-lg shadow-xl border border-gray-200 hover:shadow-2xl transition-all">
-            <h3 className="text-2xl font-bold mb-2">Basic</h3>
-            <p className="text-gray-600 mb-6">Perfect for small businesses</p>
-            <p className="text-4xl font-bold mb-6">$99<span className="text-lg text-gray-600 font-normal">/month</span></p>
+          <div className="bg-white p-8 rounded-lg shadow-xl border border-gray-200 hover:shadow-2xl transition-all hover:scale-105 transition-transform duration-300">
+            <h3 className="text-2xl font-bold mb-2 text-center">Basic</h3>
+            <p className="text-gray-600 mb-6 text-center">Perfect for small businesses</p>
+            <p className="text-4xl font-bold mb-6 text-center">$99<span className="text-lg text-gray-600 font-normal">/month</span></p>
             <ul className="mb-8">
               <li className="flex items-center mb-3">
                 <svg className="w-5 h-5 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20">
@@ -170,11 +170,11 @@ const Offerings = () => {
           </div>
           
           {/* Pro Plan - Highlighted */}
-          <div className="bg-white p-8 rounded-lg shadow-xl border-2 border-[#00df9a] hover:shadow-2xl transition-all transform md:-translate-y-4">
-            <div className="bg-[#00df9a] text-black text-sm font-bold py-1 px-4 rounded-full inline-block mb-2">MOST POPULAR</div>
-            <h3 className="text-2xl font-bold mb-2">Professional</h3>
-            <p className="text-gray-600 mb-6">For growing businesses</p>
-            <p className="text-4xl font-bold mb-6">$199<span className="text-lg text-gray-600 font-normal">/month</span></p>
+          <div className="bg-[#FFFFC5] p-8 rounded-lg shadow-xl border-2 border-[#00df9a] hover:shadow-2xl transition-all transform md:-translate-y-4 hover:scale-105 transition-transform duration-300">
+            <div className="bg-[#00df9a] text-black text-sm font-bold py-1 px-4 rounded-full inline-block mb-2 justify-center">MOST POPULAR</div>
+            <h3 className="text-2xl font-bold mb-2 text-center">Professional</h3>
+            <p className="text-gray-600 mb-6 text-center">For growing businesses</p>
+            <p className="text-4xl font-bold mb-6 text-center">$199<span className="text-lg text-gray-600 font-normal">/month</span></p>
             <ul className="mb-8">
               <li className="flex items-center mb-3">
                 <svg className="w-5 h-5 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20">
@@ -201,16 +201,16 @@ const Offerings = () => {
                 AI recommendations
               </li>
             </ul>
-            <button className="w-full bg-[#00df9a] text-black py-2 rounded-md font-bold hover:bg-opacity-80 transition-all">
+            <button className="w-full bg-[#000300] text-[#00df9a] py-2 rounded-md font-bold hover:bg-opacity-80 transition-all">
               Get Started
             </button>
           </div>
           
           {/* Enterprise Plan */}
-          <div className="bg-white p-8 rounded-lg shadow-xl border border-gray-200 hover:shadow-2xl transition-all">
-            <h3 className="text-2xl font-bold mb-2">Enterprise</h3>
-            <p className="text-gray-600 mb-6">For large organizations</p>
-            <p className="text-4xl font-bold mb-6">$499<span className="text-lg text-gray-600 font-normal">/month</span></p>
+          <div className="bg-white p-8 rounded-lg shadow-xl border border-gray-200 hover:shadow-2xl transition-all hover:scale-105 transition-transform duration-300">
+            <h3 className="text-2xl font-bold mb-2 text-center">Enterprise</h3>
+            <p className="text-gray-600 mb-6 text-center">For large organizations</p>
+            <p className="text-4xl font-bold mb-6 text-center">$499<span className="text-lg text-gray-600 font-normal">/month</span></p>
             <ul className="mb-8">
               <li className="flex items-center mb-3">
                 <svg className="w-5 h-5 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20">
@@ -237,7 +237,7 @@ const Offerings = () => {
                 Dedicated support team
               </li>
             </ul>
-            <button className="w-full bg-gray-800 text-white py-2 rounded-md font-bold hover:bg-gray-700 transition-all">
+            <button className="w-full bg-[#00df9a] text-black py-2 rounded-md font-bold hover:bg-opacity-80 transition-all">
               Contact Sales
             </button>
           </div>
