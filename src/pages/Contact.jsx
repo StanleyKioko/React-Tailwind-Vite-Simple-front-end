@@ -78,7 +78,7 @@ const ContactPage = () => {
                 </div>
                 <div>
                   <h3 className="font-bold">Address</h3>
-                  <p className="text-gray-400">123 Analytics Street, Tech City, TC 10101</p>
+                  <p className="text-gray-400">Analytics Street, Tech City, TC 10101</p>
                 </div>
               </div>
               
@@ -91,7 +91,7 @@ const ContactPage = () => {
                 </div>
                 <div>
                   <h3 className="font-bold">Email</h3>
-                  <p className="text-gray-400">info@stanleyanalytics.com</p>
+                  <p className="text-gray-400">mwangestanley02@gmail.com</p>
                 </div>
               </div>
               
@@ -103,7 +103,7 @@ const ContactPage = () => {
                 </div>
                 <div>
                   <h3 className="font-bold">Phone</h3>
-                  <p className="text-gray-400">+1 (555) 123-4567</p>
+                  <p className="text-gray-400">+254708967800</p>
                 </div>
               </div>
             </div>
