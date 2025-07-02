@@ -1,4 +1,5 @@
 import React from 'react';
+import stanblobe from '../assets/stanblobe.jpg';
 
 const AboutPage = () => {
   return (
@@ -10,29 +11,29 @@ const AboutPage = () => {
             We are a team of passionate data scientists and analysts committed to helping businesses unlock the full potential of their data.
           </p>
         </div>
-        
-        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+
+        <div className="grid md:grid-cols-2 gap-12 items-center mb-16 bg-[#00df9a] mx-auto max-w-[1240px] text-center">
           <div>
-            <h2 className="text-3xl font-bold mb-4">Our Story</h2>
-            <p className="text-white mb-4">
+            <h2 className="text-3xl font-bold mb-4 py-4">Our Story</h2>
+            <p className="text-black mb-4">
               Founded in 2020, Stanley Analytics began with a simple mission: make data analytics accessible to businesses of all sizes. 
               What started as a small team of three has grown into a company serving clients worldwide.
             </p>
-            <p className="text-white mb-4">
+            <p className="text-black mb-4">
               Our journey has been driven by a passion for data and a commitment to excellence. We've helped hundreds of businesses transform 
               their operations through data-driven insights and innovative solutions.
             </p>
-            <p className="text-white">
+            <p className="text-black">
               Today, we continue to push the boundaries of what's possible with data analytics, always staying at the forefront of technological advancements.
             </p>
           </div>
           <div className="bg-gray-200 h-[400px] rounded-lg flex items-center justify-center">
-            <p className="text-gray-500">[Company Image]</p>
+            <img src={stanblobe} alt="" />
           </div>
         </div>
         
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-8">Our Values</h2>
+          <h2 className="text-3xl font-bold text-center mb-8 text-white">Our Values</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {[
               {title: "Innovation", desc: "We constantly seek new ways to solve complex data challenges."},
@@ -49,8 +50,8 @@ const AboutPage = () => {
             ))}
           </div>
         </div>
-        
-        <div className="bg-[#000300] text-white p-8 rounded-lg">
+
+        <div className="bg-[#000300] text-white p-8 rounded-lg mx-auto max-w-[600px] text-center">
           <h2 className="text-2xl font-bold mb-4 text-[#00df9a]">Join Our Team</h2>
           <p className="mb-6">We're always looking for talented individuals who share our passion for data and analytics.</p>
           <button className="bg-[#00df9a] text-black py-3 px-8 rounded-md font-medium hover:bg-[#00c589]">
