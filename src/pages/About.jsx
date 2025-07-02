@@ -5,7 +5,7 @@ const AboutPage = () => {
   return (
     <div className="w-full py-16 px-4">
       <div className="max-w-[1240px] mx-auto">
-        <div className="text-center">
+        <div className="text-center ">
           <h1 className="text-4xl font-bold text-[#00df9a] mb-8">About Us</h1>
           <p className="text-xl mb-10 max-w-[800px] mx-auto">
             We are a team of passionate data scientists and analysts committed to helping businesses unlock the full potential of their data.
@@ -31,8 +31,8 @@ const AboutPage = () => {
             <img src={stanblobe} alt="" />
           </div>
         </div>
-        
-        <div className="mb-16">
+
+        <div className="mb-16 bg-[#000300]">
           <h2 className="text-3xl font-bold text-center mb-8 text-white">Our Values</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {[
