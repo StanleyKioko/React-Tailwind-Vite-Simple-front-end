@@ -238,7 +238,7 @@ const Offerings = () => {
               </li>
             </ul>
             <button className="w-full bg-[#00df9a] text-black py-2 rounded-md font-bold hover:bg-opacity-80 transition-all">
-              Contact Sales
+              Get Started
             </button>
           </div>
         </div>
