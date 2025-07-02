@@ -11,17 +11,16 @@ import{
 
 const Footer = () => {
   return (
-    <div className="lg:grid-cols-3 max-w-[1240px] mx-auto py-8 px-4 grid gap-8 text-white bg-gray-black">
+    <div className="lg:grid-cols-2 max-w-[1240px] mx-auto py-2 px-4 grid gap-4 text-white bg-gray-black">
       <div className="max-w-[1240px] mx-auto py-8 px-4 grid lg:grid-cols-2 gap-8 text-white bg-gray-black">
         <h1 className="w-full text-3xl font-bold text-[#00df9a]">© 2025 Stanley.</h1>
-        <p className="py-4 mx-auto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere illo quidem ipsam distinctio, laborum adipisci ut quasi possimus ab in itaque quo voluptates aspernatur omnis sint officia minima saepe accusantium?</p>
-        <div className="flex justify-between md:w-[75%] mt-4">
+        {/*<div className="flex justify-between md:w-[75%] mt-4">
           <FaFacebookSquare className="size{30}" />
           <FaInstagramSquare className="size{30}" />
           <FaTwitterSquare className="size{30}" />
           <FaLinkedin className="size{30}" />
           <FaGithubSquare className="size{30}" />
-        </div>
+        </div>*/}
       </div>
       <div className="lg:col-span-2 flex justify-between mt-6">
         
